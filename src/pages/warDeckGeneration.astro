@@ -1,11 +1,23 @@
 ---
-
+import "../styles/global.css";
 ---
 
 <section id="war" class="war">
   <div class="war_container">
     <div class="war_content">
       <h1 class="main_title">Finish Your War Decks</h1>
+      <input
+        type="text"
+        id="search-input"
+		class="search_input"
+        placeholder="Optionally enter card names (comma-seperated)"
+      />
+      <div class="primary_button_group">
+        <a href="/" class="btn btn--primary">Home</a>
+        <button id="meta-generation-btn" class="btn btn--primary"
+          >Genrate War Decks</button
+        >
+      </div>
     </div>
   </div>
 </section>
