@@ -1,11 +1,23 @@
 ---
-
+import "../styles/global.css";
 ---
 
 <section id="deck" class="deck">
   <div class="deck_container">
     <div class="deck_content">
       <h1 class="main_title">Generate Meta Decks</h1>
+      <input
+        type="text"
+        id="search-input"
+		class="search_input"
+        placeholder="Optionally enter card names (comma-seperated)"
+      />
+      <div class="primary_button_group">
+        <a href="/" class="btn btn--primary">Home</a>
+        <button id="meta-generation-btn" class="btn btn--primary"
+          >Generate Meta Decks</button
+        >
+      </div>
     </div>
   </div>
 </section>
